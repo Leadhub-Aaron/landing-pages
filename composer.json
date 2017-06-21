@@ -9,5 +9,21 @@
             "email": "richard@leadhub.net"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "leadhub-common",
+                "version": "0.0.1",
+                "source": {
+                    "url": "https://github.com/leadhub/common.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "leadhub-common": "0.0.1"
+    }
 }
