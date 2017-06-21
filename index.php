@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Landing Pages by LEADHUB - base files
+ * Plugin Name: LEADHUB Landing Page Utilities
  * Plugin URI: http://www.leadhub.net/
  * Description:  Common utilities used by LEADHUB landing pages.
  * Author: Leadhub
@@ -8,12 +8,8 @@
  * License: GPLv2 or later
  */
 
-namespace Leadhub;
+include __DIR__ . "/vendor/autoload.php";
 
-add_action('plugins_loaded', function() {
-    require __DIR__ . "/vendor/autoload.php";
-
-    if(!class_exists('Leadhub\\Landing_Pages')) {
-        include __DIR__ . '/class_landing_pages.php';
-    }
-});
+if(!class_exists('Leadhub\\Landing_Pages')) {
+    include __DIR__ . '/class_landing_pages.php';
+}
