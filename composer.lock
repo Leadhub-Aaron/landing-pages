@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84a2fa7388b35192ff96dd6be0683e7d",
+    "content-hash": "4c00e094563a295ff6b3f727444f1dea",
     "packages": [
         {
             "name": "leadhub-common",
@@ -15,12 +15,42 @@
                 "reference": "master"
             },
             "type": "library"
+        },
+        {
+            "name": "leadhub/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leadhub/common.git",
+                "reference": "d73a7c8b06e1a795e6b7447aa984913f2cc8ba34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leadhub/common/zipball/d73a7c8b06e1a795e6b7447aa984913f2cc8ba34",
+                "reference": "d73a7c8b06e1a795e6b7447aa984913f2cc8ba34",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Richard",
+                    "email": "richard@leadhub.net"
+                }
+            ],
+            "description": "Common functionality for LEADHUB theme and plugin developers.",
+            "time": "2017-06-21 21:39:52"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "leadhub/common": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
