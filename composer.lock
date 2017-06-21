@@ -7,16 +7,6 @@
     "content-hash": "4c00e094563a295ff6b3f727444f1dea",
     "packages": [
         {
-            "name": "leadhub-common",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leadhub/common.git",
-                "reference": "master"
-            },
-            "type": "library"
-        },
-        {
             "name": "leadhub/common",
             "version": "dev-master",
             "source": {
