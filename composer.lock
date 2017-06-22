@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2e82340e8223ac89fe7da0e721c36ab",
+    "content-hash": "4cfefad60de5c3ed8b17a90b144336c8",
     "packages": [
         {
             "name": "leadhub/common",
-            "version": "0.0.6",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leadhub/common.git",
-                "reference": "a358ba9c69b375e11c9ae1e186a846bb7037258b"
+                "reference": "9b3fb455d5e4082bdad29da901ba4e6fde18ce23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leadhub/common/zipball/a358ba9c69b375e11c9ae1e186a846bb7037258b",
-                "reference": "a358ba9c69b375e11c9ae1e186a846bb7037258b",
+                "url": "https://api.github.com/repos/leadhub/common/zipball/9b3fb455d5e4082bdad29da901ba4e6fde18ce23",
+                "reference": "9b3fb455d5e4082bdad29da901ba4e6fde18ce23",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Common functionality for LEADHUB theme and plugin developers.",
-            "time": "2017-06-22T16:38:39+00:00"
+            "time": "2017-06-22T19:27:01+00:00"
         }
     ],
     "packages-dev": [],
