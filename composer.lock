@@ -4,23 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c00e094563a295ff6b3f727444f1dea",
+    "content-hash": "6c9d16a7dc20f0871483e20991ec53f2",
     "packages": [
         {
             "name": "leadhub/common",
-            "version": "dev-master",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leadhub/common.git",
-                "reference": "d73a7c8b06e1a795e6b7447aa984913f2cc8ba34"
+                "reference": "6687c6be01b4cb212ff1eb85c7de7ce2dd9b66ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leadhub/common/zipball/d73a7c8b06e1a795e6b7447aa984913f2cc8ba34",
-                "reference": "d73a7c8b06e1a795e6b7447aa984913f2cc8ba34",
+                "url": "https://api.github.com/repos/leadhub/common/zipball/6687c6be01b4cb212ff1eb85c7de7ce2dd9b66ae",
+                "reference": "6687c6be01b4cb212ff1eb85c7de7ce2dd9b66ae",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Leadhub\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL"
@@ -32,15 +37,13 @@
                 }
             ],
             "description": "Common functionality for LEADHUB theme and plugin developers.",
-            "time": "2017-06-21 21:39:52"
+            "time": "2017-06-22T15:42:06+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "leadhub/common": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

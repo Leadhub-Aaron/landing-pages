@@ -10,12 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "leadhub/common": "0.0.4"
-    },
     "autoload": {
         "psr-4": {
             "Leadhub\\": "src/"
         }
+    },
+    "require": {
+        "leadhub/common": "v0.0.4"
     }
 }
