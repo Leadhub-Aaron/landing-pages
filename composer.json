@@ -16,6 +16,6 @@
         }
     },
     "require": {
-        "leadhub/common": "v0.0.4"
+        "leadhub/common": "v0.0.6"
     }
 }
