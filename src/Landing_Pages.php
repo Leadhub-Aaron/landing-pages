@@ -2,6 +2,8 @@
 
 namespace Leadhub;
 
+if(!class_exists('Landing_Pages')):
+
 $templates = array();
 
 $plugins = dirname(__DIR__);
@@ -83,3 +85,7 @@ class Landing_Pages {
         add_filter('template_include', array('Leadhub\\Landing_Pages', 'include_template'));
     }
 }
+
+Landing_Pages::main();
+
+endif;
